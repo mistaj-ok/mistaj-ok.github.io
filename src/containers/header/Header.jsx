@@ -16,8 +16,9 @@ const Header = () => {
           <p><span className="attribute">"who":</span> friends, family</p>
           <p><span className="attribute">"what" :</span> Nicks ncc graduation celebration</p>
           <p><span className="attribute">"when" :</span> Wednesday, May 24th <b>9pm-11pm</b></p>
-          <p><span className="attribute">"where" :</span> Oceanside, NY <p> </p><a href="https://www.google.com/maps?q=latitude,longitude"> <img className='appleLogo' src={gMapsLogo}></img>Open in Google Maps</a>
-          <p> <a href="https://maps.apple.com/?q=latitude,longitude"><img className='appleLogo' src={logoAp}></img>Open in Apple Maps</a>
+          <p><span className="attribute">"where" :</span> Oceanside, NY <p> </p><a href="https://www.google.com/maps/search/?api=1&query=28.6139,77.2090" > 
+            <img className='appleLogo' src={gMapsLogo}></img>Open in Google Maps</a>
+          <p> <a href="https://maps.apple.com/?q=40.636396886790315, -73.64894049877985"><img className='appleLogo' src={logoAp}></img>Open in Apple Maps</a>
 
 
 </p>
